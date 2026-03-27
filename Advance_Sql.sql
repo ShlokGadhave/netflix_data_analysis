@@ -31,5 +31,3 @@ Group By type;
 SELECT country,title,count(*) FROM netflixdata 
 WHERE country IS NOT NULL 
 Group by country,title;
-
--- 30 
